@@ -2,7 +2,7 @@ import carVideo from "../assets/videos/car.mp4";
 import { useContext,useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from 'gsap'
-import { gsapTimelineContext } from "../../Contexts/gsapTimeline/gsapContext";
+import { gsapTimelineContext } from "../Contexts/gsapTimeline/gsapContext";
 function HeroSection() {
   const headingRef=useRef();
   const tl=useContext(gsapTimelineContext);

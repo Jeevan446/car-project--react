@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { CiMenuFries } from "react-icons/ci";
 import { FaRegMessage } from "react-icons/fa6";
-import { gsapTimelineContext } from '../../Contexts/gsapTimeline/gsapContext';
+import { gsapTimelineContext } from '../Contexts/gsapTimeline/gsapContext';
 function Navbar() {
   const menuIconRef=useRef();
   const menuTextRef=useRef();
