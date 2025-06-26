@@ -9,18 +9,18 @@ function HeroSection() {
 useGSAP(()=>{
 tl.from((headingRef.current),{
 opacity:0,
-duration:0.5,
+duration:0.3,
 delay:0.5,
 x:-10
 })
 },[])
   return (
-    <div className=" h-screen  relative w-full overflow-x-hidden">
+    <div className=" h-screen  w-full overflow-x-hidden">
       <video autoPlay loop muted className="w-full h-full object-cover">
         <source src={carVideo} type="video/mp4" />
       </video>
-      <div className=" font-Bebas  text-white  absolute left-[30px] opacity-50  lg:text-9xl sm:text-8xl sm:top-[65%] vsm:text-7xl vsm:top-[75%]" ref={headingRef}>
-        VELZARO
+      <div className=" font-Bebas  text-white  absolute left-[30px] opacity-50  lg:text-9xl sm:text-8xl sm:top-[65%] vsm:text-7xl vsm:top-[75%]" ref={headingRef}> 
+         VELZARO
       </div>
     </div>
   );

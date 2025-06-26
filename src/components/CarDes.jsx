@@ -79,7 +79,7 @@ x:10
   // bg-[#08050A]//
 
   return (
-    <div className=" bg-black opacity-90  text-white pt-[80px] pb-[50px]">
+    <div className=" bg-black opacity-90  text-white pt-[80px] pb-[50px] overflow-x-hidden">
       {" "}
       {/*  this is outer div contains two car full*/}
       <div className="flex  vsm:flex-col-reverse vsm:items-center xl:flex-row ">
@@ -109,7 +109,7 @@ x:10
         </div>
         <img
           src={car1}
-          className=" sm:w-[500px] md:w-[680px]  vsm:w-[370px] xl:w-[850px] overflow-hidden"
+          className=" sm:w-[500px] md:w-[680px]  vsm:w-[370px] xl:w-[850px] overflow-x-hidden"
           ref={car1Ref}
         ></img>
       </div>
@@ -140,7 +140,7 @@ x:10
         </div>
         <img
           src={car2}
-          className="sm:w-[500px] md:w-[680px] vsm:w-[370px]  xl:w-[850px] overflow-hidden "
+          className="sm:w-[500px] md:w-[680px] vsm:w-[370px]  xl:w-[850px] overflow-x-hidden "
           ref={car2Ref}
         ></img>
       </div>

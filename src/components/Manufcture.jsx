@@ -6,7 +6,7 @@ function Manufacture() {
   const containerRef=useRef();
      useGSAP(()=>{
       gsap.from(containerRef.current,{
-        scale:0.3,
+        scale:0.5,
         scrollTrigger:{
           trigger:containerRef.current,
           // markers:true,
