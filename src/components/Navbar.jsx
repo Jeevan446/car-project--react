@@ -4,6 +4,7 @@ import { useGSAP } from '@gsap/react';
 import { CiMenuFries } from "react-icons/ci";
 import { FaRegMessage } from "react-icons/fa6";
 import { gsapTimelineContext } from '../Contexts/gsapTimeline/gsapContext';
+import logo from '../assets/images/logo.png'
 function Navbar() {
   const menuIconRef=useRef();
   const menuTextRef=useRef();
@@ -40,7 +41,7 @@ duration:0.5
       <span ref={menuIconRef}> <CiMenuFries className="  text-3xl cursor-pointer"   /></span> 
         <p className=" mt-[5.5px] ml-2 text-xl" ref={menuTextRef} >Menu</p>
       </div>
-      <div className="opacity-70 mt-[1px] text-2xl"  ref={logoRef}>Logo</div>
+      <div className=" text-2xl"  ref={logoRef}><img src={logo} className=' w-[60px] h-[40px]'></img></div>
       <span ref={messageRef}><FaRegMessage className="text-white text-2xl opacity-70 cursor-pointer mt-2" /></span>
     </div>
 

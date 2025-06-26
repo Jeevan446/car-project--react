@@ -17,7 +17,7 @@ function Manufacture() {
       })
      })
   return (
-    <div className=" w-full bg-[#191919]  relative pt-[60px] pb-10">
+    <div className=" w-full bg-[#191919]  relative pt-[60px] pb-[70px]  xl:pb-[150px]">
       {/* main container */}
       <div className=" w-full flex justify-center" ref={containerRef}>
         {/* contains image and texts */}
